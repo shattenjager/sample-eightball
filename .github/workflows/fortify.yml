@@ -42,7 +42,7 @@ jobs:
 
       # Perform Fortify on Demand SAST + SCA scan and import SAST results into GitHub code scanning alerts
       - name: Run FoD SAST Scan
-        uses: fortify/github-action@main
+        uses: fortify/github-action@v1
         with:
           sast-scan: true
         env:
